@@ -6,12 +6,19 @@ import {
 
 export const navLinks = [
     {
-        id: "home",
+        link: "/#home",
         title: "Início",
+        target: "_self",
     },
     {
-        id: "join",
-        title: "Junte-se à nossa comunidade!",
+        link: "/#join",
+        title: "Junte-se à nós",
+        target: "_self",
+    },
+    {
+        link: "https://dev-help-blog.netlify.app/",
+        title: "Blog",
+        target: "_blank",
     },
 ];
 
@@ -68,6 +75,10 @@ export const footerLinks = [
             {
                 name: "Discord",
                 link: "https://discord.gg/vNpPh6XTE9",
+            },
+            {
+                name: "Blog",
+                link: "https://dev-help-blog.netlify.app/"
             },
         ],
     },
