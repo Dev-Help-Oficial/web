@@ -1,6 +1,6 @@
 import styles, { layout } from "../style";
 
-const Billing = () => (
+const Content = () => (
     <section id="product" className={layout.sectionReverse}>
         <div
             className={`${styles.flexCenter} ${layout.sectionImgReverse} ml-5 pl-5 text-center flex flex-1 justify-center items-center`}
@@ -109,7 +109,7 @@ const Billing = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                 Todos nossos projetos são totalmente open-source para você estudar e contribuir!
                 <br className="sm:block hidden" />{" "}              
-                <a className='underline hover:no-underline' href="github.com" target="_blank">Disponível no Github</a>
+                <a className='underline hover:no-underline' href="https://github.com/dev-help-oficial" target="_blank">Disponível no Github</a>
             </p>
 
             
@@ -117,4 +117,4 @@ const Billing = () => (
     </section>
 );
 
-export default Billing;
+export default Content;
