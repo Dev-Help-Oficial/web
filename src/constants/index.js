@@ -16,9 +16,9 @@ export const navLinks = [
         target: "_self",
     },
     {
-        link: "https://dev-help-blog.netlify.app/",
+        link: "https://dev-help-blog.vercel.app/",
         title: "Blog",
-        target: "_blank",
+        target: "_self",
     },
 ];
 
@@ -54,7 +54,7 @@ export const stats = [
     {
         id: "stats-1",
         title: "Usuários",
-        value: "23+",
+        value: "26+",
     },
   
 ];
@@ -78,7 +78,7 @@ export const footerLinks = [
             },
             {
                 name: "Blog",
-                link: "https://dev-help-blog.netlify.app/"
+                link: "https://dev-help-blog.vercel.app/",
             },
         ],
     },
@@ -87,12 +87,16 @@ export const footerLinks = [
 export const socialMedia = [
     {
         id: "social-media-1",
+        title: "Github",
         icon: github,
         link: "https://www.github.com/dev-help-oficial",
+        target: "_self",
     },
     {
         id: "social-media-2",
         icon: discord,
+        title: "Discord",
+        target: "_self",
         link: "https://discord.gg/vNpPh6XTE9",
     },
 ];

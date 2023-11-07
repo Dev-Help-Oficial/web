@@ -109,7 +109,7 @@ const Content = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                 Todos nossos projetos são totalmente open-source para você estudar e contribuir!
                 <br className="sm:block hidden" />{" "}              
-                <a className='underline hover:no-underline' href="https://github.com/dev-help-oficial" target="_blank">Disponível no Github</a>
+                <a className='no-underline hover:underline' href="https://github.com/dev-help-oficial" target="_blank">Disponível no Github</a>
             </p>
 
             

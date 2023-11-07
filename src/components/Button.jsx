@@ -1,14 +1,14 @@
 import React from "react";
 
-const Button = ({ styles }) => (
-    <a href='https://discord.gg/vNpPh6XTE9'>
+const Button = ({ text, link, styles }) => (
+  <a href={link}>
     <button
-        type="button"
-        className={`py-4 px-6 font-Poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none transition-transform transform hover:scale-95 ${styles}`}
+      type="button"
+      className={`py-4 px-6 font-Poppins font-medium text-[18px] bg-blue-gradient rounded-[10px] transform transition-transform hover:scale-95 hover:bg-blue-600 focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 ${styles}`}
     >
-        Junte-se à nós!
+      {text}
     </button>
-    </a>
+  </a>
 );
 
 export default Button;
