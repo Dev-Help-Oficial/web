@@ -110,7 +110,7 @@ const Content = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                 Todos nossos projetos são totalmente open-source para você estudar e contribuir!
                 <br className="sm:block hidden" />{" "}              
-                <Button text="Disponível no Github" link="https://github.com/Dev-Help-Oficial/web" styles={`text-gray-100`} background="blue-gradient" textcolor="black" />
+                <Button text="Disponível no Github" link="https://github.com/Dev-Help-Oficial/web" styles={`text-black`} background="blue-gradient" textcolor="black" />
             </p>
 
             
