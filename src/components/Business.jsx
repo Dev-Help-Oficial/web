@@ -35,7 +35,7 @@ const Business = () => (
                 Junte-se à nós agora mesmo e participe de eventos e desafios únicos para testar suas habilidades!
             </p>
 
-            <Button text="Junte-se à nós" link="https://discord.gg/vNpPh6XTE9" styles={`mt-10`} background="indigo-500" textcolor="white" />
+            <Button text="Junte-se à nós" link="https://discord.gg/vNpPh6XTE9" styles={`mt-10`} background="blue-gradient" textcolor="black" />
         </div>
 
         <div className={`${layout.sectionImg} flex-col`}>

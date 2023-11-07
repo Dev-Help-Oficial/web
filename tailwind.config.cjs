@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors')
+
 module.exports = {
     content: ["./index.html", "./src/**/*.{js,jsx}"],
     mode: "jit",
@@ -12,6 +15,18 @@ module.exports = {
             },
             fontFamily: {
                 Poppins: ["Poppins", "sans-serif"],
+            },
+        },
+        theme: {
+            colors: {
+              bttransparent: 'transparent',
+              btcurrent: 'currentColor',
+              btblack: colors.black,
+              btwhite: colors.white,
+              btgray: colors.gray,
+              btemerald: colors.emerald,
+              btindigo: '#6366f1',
+              btyellow: colors.yellow,
             },
         },
         screens: {
