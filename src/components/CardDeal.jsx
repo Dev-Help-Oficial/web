@@ -11,7 +11,7 @@ const CardDeal = () => (
             📣 Fique por dentro dos exercícios e complete-os para aprender cada vez mais!
             </p>
 
-            <Button text="Junte-se à nós" link="https://discord.gg/vNpPh6XTE9" styles={`mt-10`} />
+            <Button text="Junte-se à nós" link="https://discord.gg/vNpPh6XTE9" styles={`mt-10`} background="blue-gradient" textcolor="black" />
         </div>
 
         

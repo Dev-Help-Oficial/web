@@ -1,4 +1,5 @@
 import styles, { layout } from "../style";
+import Button from "./Button";
 
 const Content = () => (
     <section id="product" className={layout.sectionReverse}>
@@ -109,7 +110,7 @@ const Content = () => (
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
                 Todos nossos projetos são totalmente open-source para você estudar e contribuir!
                 <br className="sm:block hidden" />{" "}              
-                <a className='no-underline hover:underline' href="https://github.com/dev-help-oficial" target="_blank">Disponível no Github</a>
+                <Button text="Disponível no Github" link="https://github.com/Dev-Help-Oficial/web" background="slate-500" />
             </p>
 
             
